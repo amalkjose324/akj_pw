@@ -35,7 +35,7 @@
     <!-- MATERIALIZE -->
     <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
     <!-- BOOTSTRAP -->
-    <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
     <!-- CUSTOM STYLE -->
@@ -1526,8 +1526,9 @@
 <!--==========================================
                   SCRIPTS
 ===========================================-->
-<script src="javascript/vendors/jquery-2.1.3.min.js"></script>
-<script src="javascript/vendors/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
 <script src="javascript/vendors/scrollreveal.min.js"></script>
 <script src="javascript/custom.js"></script>
