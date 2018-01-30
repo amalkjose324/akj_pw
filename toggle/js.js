@@ -7,38 +7,38 @@ $("#color-toggle").on("click", function () {
 });
 
 $("#blue").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_blue.css");
+    $("#switch_style").attr("href", "css/style_blue.css");
 });
 $("#blue-blend").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_blue_blend.css");
+    $("#switch_style").attr("href", "css/style_blue_blend.css");
 });
 $("#teal").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_teal.css");
+    $("#switch_style").attr("href", "css/style_teal.css");
 });
 $("#gray").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_gray.css");
+    $("#switch_style").attr("href", "css/style_gray.css");
 });
 $("#green").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_green.css");
+    $("#switch_style").attr("href", "css/style_green.css");
 });
 $("#green-blend").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_green_blend.css");
+    $("#switch_style").attr("href", "css/style_green_blend.css");
 });
 $("#purple").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_purple.css");
+    $("#switch_style").attr("href", "css/style_purple.css");
 });
 $("#brown").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_brown.css");
+    $("#switch_style").attr("href", "css/style_brown.css");
 });
 $("#red").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_red.css");
+    $("#switch_style").attr("href", "css/style_red.css");
 });
 $("#pink").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_pink.css");
+    $("#switch_style").attr("href", "css/style_pink.css");
 });
 $("#dark_gray").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_dark_gary.css");
+    $("#switch_style").attr("href", "css/style_dark_gary.css");
 });
 $("#dark_dark").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_dark_dark.css");
+    $("#switch_style").attr("href", "css/style_dark_dark.css");
 });

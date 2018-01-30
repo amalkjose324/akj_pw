@@ -1,6 +1,10 @@
+<?php
+header('Access-Control-Allow-Origin: http://www.amalkjose.com', false);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php include_once './lobibox/lobibox.php';?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -14,39 +18,27 @@
     <!-- GOOGLE FONT -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-
-
     <!-- MATERIAL ICON FONT -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- FONT AWESOME -->
-    <link href="stylesheets/vendors/font-awesome.min.css" rel="stylesheet">
-
-
+    <link href="css/vendors/font-awesome.min.css" rel="stylesheet">
     <!-- ANIMATION -->
-    <link href="stylesheets/vendors/animate.min.css" rel="stylesheet">
-
+    <link href="css/vendors/animate.min.css" rel="stylesheet">
     <!-- MAGNIFICENT POPUP -->
-    <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet">
-
+    <link href="css/vendors/magnific-popup.css" rel="stylesheet">
     <!-- SWIPER -->
-    <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
-
-
+    <link href="css/vendors/swiper.min.css" rel="stylesheet">
     <!-- MATERIALIZE -->
-    <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
+    <link href="css/vendors/materialize.css" rel="stylesheet">
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-
+    <link href="css/vendors/bootstrap.min.css" rel="stylesheet">
     <!-- CUSTOM STYLE -->
-    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
+    <link href="css/style.css" id="switch_style" rel="stylesheet">
+    <link href="css/customStyles.css" rel="stylesheet">
     <!--TOGGLE-->
     <link href="toggle/toggle.css" rel="stylesheet">
-
 </head>
 <body>
-
-
 <!--==========================================
                   PRE-LOADER
 ===========================================-->
@@ -64,22 +56,18 @@
         </div>
     </div>
 </div>
-
 <!--==========================================
                     HEADER
 ===========================================-->
 <header id="home">
     <nav id="theMenu" class="menu">
-
         <!--MENU-->
         <div id="menu-options" class="menu-wrap">
-
             <!--PERSONAL LOGO-->
             <div class="logo-flat">
-                <img alt="personal-logo" class="img-responsive" src="images/profile/john.png">
+                <img alt="personal-logo" class="img-responsive" src="images/profile/akj_logo.png">
             </div>
             <br>
-
             <!--OPTIONS-->
             <a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
             <a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
@@ -89,11 +77,9 @@
             <a href="#portfolios"><i class="title-icon fa fa-archive"></i>Portfolios</a>
             <a href="#interest"><i class="title-icon fa fa-heart"></i>Interest</a>
             <a href="#testimonials"><i class="title-icon fa fa-users"></i>Testimonials</a>
-            <a href="#pricing-table"><i class="title-icon fa fa-money"></i>Pricing</a>
             <a href="#blog"><i class="title-icon fa fa-pencil-square"></i>Blog</a>
             <a href="#contact"><i class="title-icon fa fa-envelope"></i>Contact</a>
         </div>
-
         <!-- MENU BUTTON -->
         <div id="menuToggle">
             <div class="toggle-normal">
@@ -103,13 +89,9 @@
             </div>
         </div>
     </nav>
-
     <!--HEADER BACKGROUND-->
     <div class="header-background section"></div>
-
 </header>
-
-
 <!--==========================================
                    V-CARD
 ===========================================-->
@@ -117,18 +99,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-
                 <!-- V-CARD -->
                 <div id="v-card" class="card">
-
                     <!-- PROFILE PICTURE -->
                     <div id="profile" class="right">
                         <img alt="profile-image" class="img-responsive" src="images/profile/profile.png">
                         <div class="slant"></div>
-
                         <!--EMPTY PLUS BUTTON-->
                         <div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div>
-
                         <!--VIDEO PLAY BUTTON-->
                         <!--<div id="button-holder" class="btn-holder">
                             <div id="play-btn" class="btn-floating btn-large btn-play">
@@ -140,15 +118,12 @@
                     <!--<div id="close-btn" class="btn-floating icon-close">
                         <i class="fa fa-close"></i>
                     </div>-->
-
                     <div class="card-content">
-
                         <!-- NAME & STATUS -->
                         <div class="info-headings">
                             <h4 class="text-uppercase left">AMAL K JOSE</h4>
                             <h6 class="text-capitalize left">Software Engineer & Web Developer</h6>
                         </div>
-
                         <!-- CONTACT INFO -->
                         <div class="infos">
                             <ul class="profile-list">
@@ -160,28 +135,20 @@
                                     <span class="title"><i class="material-icons">language</i></span>
                                     <span class="content">http://www.amalkjose.com</span>
                                 </li>
-
                                 <li class="clearfix">
                                     <span class="title"><i class="material-icons">phone</i></span>
                                     <span class="content">+91 8592962849</span>
                                 </li>
                                 <li class="clearfix">
-                                    <span class="title"><i class="fa fa-skype" aria-hidden="true"></i></span>
-                                    <span class="content">yourusername@skype.com</span>
-                                </li>
-                                <li class="clearfix">
                                     <span class="title"><i class="material-icons">place</i></span>
-                                    <span class="content">LampStreet 34/3, London, UK</span>
+                                    <span class="content">Kallarackal (H), Ezhupathekkar (PO), Malappuram (DIST)<br> Kalikavu (VIA), Adakkakundu, Kerala - India<br>PIN:676525</span>
                                 </li>
-
                             </ul>
                         </div>
-
                         <!--LINKS-->
                         <div class="links">
                             <!-- FACEBOOK-->
-                            <a href="#" id="first_one"
-                               class="social btn-floating indigo"><i
+                            <a id="first_one" class="social btn-floating indigo social-fb"><i
                                     class="fa fa-facebook"></i></a>
                             <!-- TWITTER-->
                             <a href="#" class="social  btn-floating blue"><i
@@ -202,13 +169,11 @@
                         <source src="videos/b.webm" type="video/webm">
                         <source src="videos/a.mp4" type="video/mp4">
                     </video>-->
-
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <!--==========================================
                    ABOUT
 ===========================================-->
@@ -228,12 +193,13 @@
                             JQuery, Angular JS. Strong background in management and leadership.
                         </p>
                     </div>
-
                     <!-- BUTTONS -->
                     <div id="about-btn" class="card-action">
                         <div class="about-btn">
+                          <!-- VIEW CV BUTTON -->
+                          <a class="btn waves-effect view_cv">View CV</a>
                             <!-- DOWNLOAD CV BUTTON -->
-                            <a href="#" class="btn waves-effect">Download CV</a>
+                            <a href="#" class="btn waves-effect download_cv">Download CV</a>
                             <!-- CONTACT BUTTON -->
                             <a href="#contact" class="btn waves-effect">Contact Me</a>
                         </div>
@@ -243,8 +209,6 @@
         </div>
     </div>
 </div>
-
-
 <!--==========================================
                    EDUCATION
 ===========================================-->
@@ -254,9 +218,7 @@
         <div class="section-title">
             <h4 class="text-uppercase text-center"><img src="images/icons/book.png" alt="demo">Education</h4>
         </div>
-
         <div id="timeline-education">
-
             <!-- FIRST TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -287,7 +249,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- SECOND TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -314,7 +275,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- THIRD TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -338,11 +298,9 @@
                             I completed my computer science degree from this prestigious institution.
                             I successful completed all the credits without any fallout and got A grade overall.
                         </p>
-
                     </div>
                 </div>
             </div>
-
             <!-- FOURTH TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -366,7 +324,6 @@
                             I completed this degree from this prestigious institution.
                             I successful completed all the credits without any fallout and got A grade overall.
                         </p>
-
                     </div>
                 </div>
             </div>
@@ -430,12 +387,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
-
-
 <!--==========================================
                    SKILLS
 ===========================================-->
@@ -480,8 +434,6 @@
                                     <div class="skill-bar-percent">68%</div>
                                 </div>
                             </div>
-
-
                             <div class="col-md-4 col-sm-4 col-xs-12">
                                 <!-- SECOND SKILL SECTION -->
                                 <div class="skills-title">
@@ -512,8 +464,6 @@
                                     <div class="skill-bar-percent">70%</div>
                                 </div>
                             </div>
-
-
                             <div class="col-md-4 col-sm-4 col-xs-12">
                                 <!-- THIRD SKILL SECTION -->
                                 <div class="skills-title">
@@ -551,8 +501,6 @@
         </div>
     </div>
 </section>
-
-
 <!--==========================================
                    EXPERIENCE
 ===========================================-->
@@ -562,9 +510,7 @@
         <div class="section-title">
             <h4 class="text-uppercase text-center"><img src="images/icons/layers.png" alt="demo">Experience</h4>
         </div>
-
         <div id="timeline-experience">
-
             <!-- FIRST TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -595,7 +541,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- SECOND TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -619,11 +564,9 @@
                             I started my frontend carrier here, spent tow years learning and working
                             in various frontend aspects. I worked on about 40+ projects local and online.
                         </p>
-
                     </div>
                 </div>
             </div>
-
             <!-- THIRD TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -647,11 +590,9 @@
                             I started my expertise carrier here, spent tow years learning and working
                             in various UX/UI aspects. I worked on about 70+ projects local and online.
                         </p>
-
                     </div>
                 </div>
             </div>
-
             <!-- FOURTH TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
@@ -685,7 +626,6 @@
         </div>
     </div>
 </section>
-
 <!--==========================================
                   MODALS
 ===========================================-->
@@ -728,7 +668,6 @@
             </div>
         </div>
     </div>
-
     <!--MODAL TWO-->
     <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
         <div class="modal-dialog modal-lg" role="document">
@@ -760,7 +699,6 @@
             </div>
         </div>
     </div>
-
     <!--MODAL THREE-->
     <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-3">
         <div class="modal-dialog modal-lg" role="document">
@@ -793,7 +731,6 @@
             </div>
         </div>
     </div>
-
     <!--MODAL FOUR-->
     <div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-4">
         <div class="modal-dialog modal-lg" role="document">
@@ -825,7 +762,6 @@
             </div>
         </div>
     </div>
-
     <!--MODAL FIVE-->
     <div class="modal fade" id="myModal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-5">
         <div class="modal-dialog modal-lg" role="document">
@@ -868,7 +804,6 @@
             <h4 class="text-uppercase text-center"><img src="images/icons/safe.png" alt="demo">Portfolios</h4>
         </div>
         <div id="portfolios-card" class="row">
-
             <!--OPTIONS-->
             <ul class="nav nav-tabs">
                 <!--ALL CATEGORIES-->
@@ -879,16 +814,12 @@
                 <li class="waves-effect list-shuffle"><a class="cate" href="#b" data-toggle="tab">DRIBBLE</a></li>
                 <li class="waves-effect list-shuffle"><a class="cate" href="#c" data-toggle="tab">WEBSITES</a></li>
             </ul>
-
             <!--CATEGORIES CONTENT-->
             <div class="tab-content">
-
                 <!--All CATEGORIES-->
                 <div id="all"></div>
-
                 <!--CATEGORY 1-->
                 <div id="a">
-
                     <!--CATEGORY CONTENT ONE BIG-->
                     <div class="col-md-4 col-sm-12 col-xs-12 grid big inLeft">
                         <figure class="port-effect-scale">
@@ -901,7 +832,6 @@
                             </figcaption>
                         </figure>
                     </div>
-
                     <!--CATEGORY CONTENT TWO SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-scale">
@@ -914,7 +844,6 @@
                             </figcaption>
                         </figure>
                     </div>
-
                     <!--CATEGORY CONTENT THREE SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
                         <figure class="port-effect-up">
@@ -927,12 +856,9 @@
                             </figcaption>
                         </figure>
                     </div>
-
                 </div>
-
                 <!--CATEGORY 2-->
                 <div id="b">
-
                     <!--CATEGORY CONTENT ONE BIG-->
                     <div class="col-md-4 col-sm-12 col-xs-12 grid big inRight">
                         <figure class="port-effect-up">
@@ -945,7 +871,6 @@
                             </figcaption>
                         </figure>
                     </div>
-
                     <!--CATEGORY CONTENT TWO SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
                         <figure class="port-effect-scale">
@@ -958,8 +883,6 @@
                             </figcaption>
                         </figure>
                     </div>
-
-
                     <!--CATEGORY CONTENT THREE SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
                         <figure class="port-effect-up">
@@ -972,9 +895,7 @@
                             </figcaption>
                         </figure>
                     </div>
-
                 </div>
-
                 <!--CATEGORY 3-->
                 <div id="c">
                     <!--CATEGORY CONTENT ONE SMALL-->
@@ -1010,7 +931,6 @@
                             </figcaption>
                         </figure>
                     </div>
-
                     <!--CATEGORY CONTENT FOUR SMALL-->
                     <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
                         <figure class="port-effect-up">
@@ -1057,8 +977,6 @@
         </div>
     </div>
 </section>
-
-
 <!--==========================================
                    INTEREST
 ===========================================-->
@@ -1068,7 +986,6 @@
         <div class="section-title">
             <h4 class="text-uppercase text-center"><img src="images/icons/heart.png" alt="demo">Interest</h4>
         </div>
-
         <div id="interest-card" class="card">
             <!--INTEREST TEXT-->
             <div class="card-content">
@@ -1079,10 +996,8 @@
                     I also spend time volunteering at the Red Cross in London, UK each month.
                 </p>
             </div>
-
             <!--INTEREST ICONS-->
             <div class="row no-gutters">
-
                 <!--INTEREST ICON ONE-->
                 <div class="col-md-2 col-sm-4 col-xs-6  box text-center">
                     <div class="interest-icon">
@@ -1125,13 +1040,10 @@
                         <span>Movies</span>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
-
-
 <!--==========================================
              TESTIMONIALS AND CLIENTS
 ===========================================-->
@@ -1143,7 +1055,6 @@
         </div>
         <div id="testimonials-card" class="row card">
             <div class="col-md-12 col-xs-12">
-
                 <!-- SLIDER STRUCTURE -->
                 <div id="clients-slider"
                      class="swiper-container swiper-container-clients">
@@ -1169,7 +1080,6 @@
                                 </blockquote>
                             </div>
                         </div>
-
                         <!-- SLIDE TWO -->
                         <div class="swiper-slide">
                             <div class="col-md-12">
@@ -1185,7 +1095,6 @@
                                 </blockquote>
                             </div>
                         </div>
-
                         <!-- SLIDE THREE -->
                         <div class="swiper-slide">
                             <div class="col-md-12">
@@ -1233,103 +1142,6 @@
         </div>
     </div>
 </section>
-
-<!--==========================================
-             PRICING TABLE
-===========================================-->
-<section id="pricing-table" class="section">
-    <div class="container">
-        <!--SECTION TITLE-->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/lightning.png" alt="demo">Pricing</h4>
-        </div>
-        <!--PRICING TABLES-->
-        <div id="pricing-card" class="row">
-            <!--PRICING ONE-->
-            <div id="p-one" class="col-md-4 col-sm-4 col-xs-12">
-                <div class="pricing">
-                    <div class="card">
-                        <!--PRICING TOP-->
-                        <div class="pricing-top">
-                            <p><sup>$</sup><em>50</em>/mo</p>
-                            <span>Starter</span>
-                        </div>
-                        <!--PRICING DETAILS-->
-                        <div class="pricing-bottom text-center text-capitalize">
-                            <ul>
-                                <li>2 GB Bandwidth</li>
-                                <li>5 GB Disk Space</li>
-                                <li>5 Databases</li>
-                                <li>Free Domain</li>
-                                <li>5 Subdomain</li>
-                            </ul>
-                        </div>
-                        <!--BUTTON-->
-                        <div class="card-action text-center">
-                            <a class="waves-effect btn">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--PRICING TWO-->
-            <div id="p-three" class="col-md-4 col-sm-4 col-xs-12">
-                <div class="pricing">
-                    <div class="card">
-                        <!--PRICING TOP-->
-                        <div class="pricing-top">
-                            <p><sup>$</sup><em>200</em>/mo</p>
-                            <span>Ultimate</span>
-                        </div>
-                        <!--PRICING DETAILS-->
-                        <div class="pricing-bottom text-center text-capitalize">
-                            <ul>
-                                <li>∞ Bandwidth</li>
-                                <li>∞ Disk Space</li>
-                                <li>∞ Databases</li>
-                                <li>Free Domain</li>
-                                <li>∞ Subdomain</li>
-                            </ul>
-                        </div>
-                        <!--BUTTON-->
-                        <div class="card-action text-center">
-                            <a class="waves-effect btn">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--PRICING THREE-->
-            <div id="p-two" class="col-md-4 col-sm-4 col-xs-12">
-                <div class="pricing">
-                    <div class="card">
-                        <!--PRICING TOP-->
-                        <div class="pricing-top">
-                            <p><sup>$</sup><em>100</em>/mo</p>
-                            <span>Business</span>
-                        </div>
-                        <!--PRICING DETAILS-->
-                        <div class="pricing-bottom text-center text-capitalize">
-                            <ul>
-                                <li>5 GB Bandwidth</li>
-                                <li>25 GB Disk Space</li>
-                                <li>10 Databases</li>
-                                <li>Free Domain</li>
-                                <li>15 Subdomain</li>
-                            </ul>
-                        </div>
-                        <!--BUTTON-->
-                        <div class="card-action text-center">
-                            <a class="waves-effect btn">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
 <!--==========================================
              BLOG
 ===========================================-->
@@ -1429,13 +1241,11 @@
                             <a class="forward" href="single-blog.html">Read More</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <!--==========================================
                   CONTACT
 ===========================================-->
@@ -1486,7 +1296,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-7 col-sm-12 col-xs-12">
                 <!-- CONTACT MAP -->
                 <div id="map-card" class="card">
@@ -1494,11 +1303,9 @@
                     <div id="myMap"></div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
-
 <!--==========================================
                      SCROLL TO TOP
 ===========================================-->
@@ -1507,33 +1314,14 @@
 </div>
 
 <!--==========================================
-                      FOOTER
-===========================================-->
-
-<footer>
-    <div class="container">
-        <!--FOOTER DETAILS-->
-        <p class="text-center">
-            © Material CV. All right reserved by
-            <a href="http://trimatrixlab.com/" target="_blank">
-                <strong>Trimatrixlab</strong>
-            </a>
-        </p>
-    </div>
-</footer>
-
-
-<!--==========================================
                   SCRIPTS
 ===========================================-->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/vendors/jquery-2.1.3.min.js"></script>
+<script src="js/vendors/bootstrap.min.js"></script>
+<script src="js/customScripts.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
-<script src="javascript/vendors/scrollreveal.min.js"></script>
-<script src="javascript/custom.js"></script>
+<script src="js/vendors/scrollreveal.min.js"></script>
+<script src="js/custom.js"></script>
 <script src="toggle/js.js"></script>
-
-
 </body>
 </html>
